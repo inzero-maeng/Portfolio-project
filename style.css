@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Full-Screen Sections */
+header, section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #eef2ff;
+    color: #333;
+    text-align: left;
+}
+
+/* Layout for Home Section */
+.home-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+
+.text-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+.text-content h2 {
+    font-size: 1.8rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.text-content h2 .highlight {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+/* More Button */
+.more-button-container {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cta-button {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #5149d6;
+}
+
+/* About and Contact Sections */
+#about, #contact {
+    background-color: #f7f9fc;
+    color: #333;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    font-size: 2.5rem;
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+
+#about p, #contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
